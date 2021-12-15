@@ -16,10 +16,12 @@ struct ControllingAnimationStackView: View {
         }
         .frame(width: 200, height: 200)
         .background(enabled ? .blue : .red)
+        .animation(nil, value: enabled)
         .foregroundColor(.white)
-        .animation(.default, value: enabled)
-        //NOTE: only changes that occur before the animation() modifier get animated
         .clipShape(RoundedRectangle(cornerRadius: enabled ? 60 : 0))
+        .animation(.interpolatingSpring(stiffness: 10, damping: 1), value: enabled)
+        //NOTE: only changes that occur before the animation() modifier get animated
+        
     }
 }
 
