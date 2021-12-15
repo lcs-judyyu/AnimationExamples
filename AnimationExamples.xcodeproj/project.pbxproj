@@ -14,6 +14,7 @@
 		5ACFDDB8276A32920007779A /* AnimatingBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDDB7276A32920007779A /* AnimatingBindingView.swift */; };
 		5ACFDDBA276A351C0007779A /* ExplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDDB9276A351C0007779A /* ExplicitAnimationView.swift */; };
 		5ACFDDBC276A37030007779A /* ControllingAnimationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDDBB276A37030007779A /* ControllingAnimationStackView.swift */; };
+		5ACFDDBE276A3A440007779A /* AnimateGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACFDDBD276A3A440007779A /* AnimateGestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5ACFDDB7276A32920007779A /* AnimatingBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindingView.swift; sourceTree = "<group>"; };
 		5ACFDDB9276A351C0007779A /* ExplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationView.swift; sourceTree = "<group>"; };
 		5ACFDDBB276A37030007779A /* ControllingAnimationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimationStackView.swift; sourceTree = "<group>"; };
+		5ACFDDBD276A3A440007779A /* AnimateGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateGestures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5ACFDDB7276A32920007779A /* AnimatingBindingView.swift */,
 				5ACFDDB9276A351C0007779A /* ExplicitAnimationView.swift */,
 				5ACFDDBB276A37030007779A /* ControllingAnimationStackView.swift */,
+				5ACFDDBD276A3A440007779A /* AnimateGestures.swift */,
 				5ACFDDAD276A2A960007779A /* Assets.xcassets */,
 				5ACFDDAF276A2A960007779A /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				5ACFDDBC276A37030007779A /* ControllingAnimationStackView.swift in Sources */,
 				5ACFDDAA276A2A880007779A /* AnimationExamplesApp.swift in Sources */,
 				5ACFDDBA276A351C0007779A /* ExplicitAnimationView.swift in Sources */,
+				5ACFDDBE276A3A440007779A /* AnimateGestures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
